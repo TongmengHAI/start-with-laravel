@@ -16,3 +16,9 @@ return Application::configure(basePath: dirname(__DIR__))
     ->withExceptions(function (Exceptions $exceptions) {
         //
     })->create();
+
+    // $app->configure('modules');
+    // $app->register(\Nwidart\Modules\LumenModulesServiceProvider::class);
+    // $app->bind('path.public', function() {
+    //     return __DIR__ . 'public/';
+    // });
